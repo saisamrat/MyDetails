@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Details</title>
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="jquery-3.1.1.min.js"></script>
+	<script type="text/javascript" src="process.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Caveat|Lato" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div id="stripe">
+	<h4>Save your details like street name, apt, zipcode, email,DOB to
+		easily fill forms</h4>
+</div>
+<div class="myDetailsContainer container">
+	<div class="row">
+		<div id="detailsEnter" class="col-lg-10 col-md-10 col-xs-10">
+			<input type="text" id="name" class="enter form-control col-xs-6" placeholder="Name of the input"/>
+			<input type="text" id="value" class="enter form-control col-xs-6" placeholder="Details">
+			<button class="glyphicon glyphicon-plus btn" title="Add text" id="add"></button>
+		</div>
+	</div>
+				<ul id="textDetails">
+				
+				</ul>
+	<div class="row" id="btngrps">
+		<div id="btnsRow" class="btn-groups">
+			<button class="btn actBtn btns" id="clear" title="clear the text">Clear</button>
+			<button class="btn actBtn btns" id="edit" title="edit the text">Edit</button>
+			<button class="btn actBtn btns hidden" id="save" title="save the changes">Save</button>
+		</div>		
+
+	</div>
+	
+</div>
+</body>
+</html>
